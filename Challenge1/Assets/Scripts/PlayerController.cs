@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             winText.text = "YOU LOSE! Game created by Franza Gregoire";
-            Destroy(this);
+            Destroy(gameObject);
         }
         
     
