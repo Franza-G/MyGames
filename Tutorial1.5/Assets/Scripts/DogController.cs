@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CatController : MonoBehaviour
+public class DogController : MonoBehaviour
 {
     public AudioSource musicSource;
 
