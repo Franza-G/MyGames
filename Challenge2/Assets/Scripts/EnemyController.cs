@@ -1,0 +1,46 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyController : MonoBehaviour
+{
+    // Transforms to act as start and end markers for the journey.
+    public Transform startMarker;
+    public Transform endMarker;
+
+    public float speed = 1.0F;
+
+    // Time when the movement started.
+    private float startTime;
+
+    // Total distance between the markers.
+    private float journeyLength;
+
+    void Start()
+    {
+        // Time when movement started
+        startTime = Time.time;
+
+        // Calculate the journey length.
+        journeyLength = Vector2.Distance(startMarker.position, endMarker.position);
+    }
+
+    // back and forth
+    void Update()
+    {
+        //rotate around Z-axis with smooth rotation
+        transform.Rotate(new Vector3(0, 0, 45) * Time.deltaTime);
+
+        // Distance moved = time * speed.
+        float distCovered = (Time.time - startTime) * speed;
+
+        // Fraction of journey completed = current distance divided by total distance.
+        float fracJourney = distCovered / journeyLength;
+
+        // Set our position as a fraction of the distance between the markers and pingpong the movement.
+        transform.position = Vector2.Lerp(startMarker.position, endMarker.position, Mathf.PingPong(fracJourney, 1));
+              
+    }
+
+
+}
