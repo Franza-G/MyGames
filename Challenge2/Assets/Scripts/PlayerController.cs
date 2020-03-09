@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (scoreValue == 4) //write lives reset code here
+        if (scoreValue == 4) //remember lives reset code here
         {
             gameObject.transform.position = new Vector2(7.0f, 39.32f);
             lives = 3;
