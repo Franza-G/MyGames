@@ -57,35 +57,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9700}
+      Script: {instanceID: 9686}
     - Class: 114
-      Script: {instanceID: 9762}
+      Script: {instanceID: 9702}
     - Class: 114
-      Script: {instanceID: 9852}
+      Script: {instanceID: 9764}
     - Class: 114
-      Script: {instanceID: 10070}
+      Script: {instanceID: 9854}
+    - Class: 114
+      Script: {instanceID: 9996}
     - Class: 114
       Script: {instanceID: 10074}
     - Class: 114
-      Script: {instanceID: 10090}
+      Script: {instanceID: 10078}
     - Class: 114
-      Script: {instanceID: 10302}
+      Script: {instanceID: 10094}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10306}
     - Class: 114
-      Script: {instanceID: 10828}
+      Script: {instanceID: 10498}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 10564}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 10834}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 14868}
+      Script: {instanceID: 11516}
     - Class: 114
-      Script: {instanceID: 17426}
-    - Class: 114
-      Script: {instanceID: 19612}
+      Script: {instanceID: 11560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -107,6 +107,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: de7d6a5820dded6c7f75780e98f1dc41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeaponController
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -209,6 +215,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 757d56d0910fdc18d03e5b801da35a3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EvasiveManeuver
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -347,6 +359,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: be2d1663d6bc8ce39ce9c8dea6a963c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BGScroller
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -605,26 +623,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: be2d1663d6bc8ce39ce9c8dea6a963c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BGScroller
-  - hash:
-      serializedVersion: 2
-      Hash: de7d6a5820dded6c7f75780e98f1dc41
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WeaponController
-  - hash:
-      serializedVersion: 2
-      Hash: 757d56d0910fdc18d03e5b801da35a3f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EvasiveManeuver
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity
   playerPath: C:/Users/Franza/Documents/UCF/DIG/DIG3480CompMedium/UnityProjects/MyGames/Challenge3/Space
-    Shooter Project/Build/Space Shooter Project.exe
+    Shooter Project/Build1/Space Shooter Project.exe
